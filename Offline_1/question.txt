@@ -1,0 +1,105 @@
+**Problem Statement**
+
+You are managing an ancient energy machine with n rows of power cells. Each row contains
+a variable number of integers. The machine operates according to the following rules:
+1. A row is considered prime-active if the sum of all numbers in that row is a prime number.
+2. A row is considered palindrome-active if the sum of all numbers in that row is apalindrome (reads the same forwards and backwards).
+3. A row is considered harmonic if the alternating sum (first - second + third - fourth +...) is divisible by 7.
+4. A row is considered balanced if the sum of numbers at odd positions equals the sum of numbers at even positions.
+
+**Task**
+
+Take input for n rows (2 ≤ n ≤ 10), each containing a variable number of integers. For each
+row, determine its activation status based on the rules above and calculate its energy level,
+which is determined as follows:
+• Start with energy level = 0
+• Add 5 points if row is prime-active
+• Add 3 points if row is palindrome-active
+• Add 4 points if row is harmonic
+• Add 2 points if row is balanced
+
+**Input**
+
+• First line: an integer n
+• Next n lines: each line starts with an integer k (the number of values in that row), followed by k space-separated integers
+
+**Output**
+
+For each row, print one line:
+Row X: [Active Status] - Energy Level Y
+where X is the row number (starting from 1), Y is the row energy level and [Active Status] is one of the following:
+• ULTRA if the row satisfies all four conditions
+• HIGH if the row satisfies exactly three conditions
+• MEDIUM if the row satisfies exactly two conditions
+• LOW if the row satisfies exactly one condition
+• INACTIVE if the row satisfies none of the conditions
+
+After processing all rows, print a summary line:
+Total Energy: Z
+where Z is the sum of all energy levels.
+
+**Constraints**
+• You must solve the problem using loop and/or conditional statements only.
+• Do not use arrays or functions.
+• Maximum integers in any row is 15.
+• All input integers will be between 0 and 1000.
+
+**Sample Inputs and Outputs**
+
+Sample Input 1: 
+3
+3 11 22 33
+4 3 5 7 11
+5 10 20 30 10 10
+
+Sample Output 1:
+Row 1: LOW - Energy Level 3
+Row 2: INACTIVE - Energy Level 0
+Row 3: INACTIVE - Energy Level 0
+Total Energy: 3
+
+Sample Input 2:
+4
+3 30 40 30
+4 17 17 17 17
+2 121 121
+3 41 23 19
+
+Sample Output 2
+Row 1: INACTIVE - Energy Level 0
+Row 2: MEDIUM - Energy Level 6
+Row 3: HIGH - Energy Level 9
+Row 4: LOW - Energy Level 5
+Total Energy: 20
+
+
+**Explanation of Sample 2**
+• Row 1:
+– Sum = 100 (not prime, not palindrome)
+– Alternating sum = 30 - 40 + 30 = 20 (not divisible by 7, not harmonic)
+– Odd sum = 30 + 30 = 60, even sum = 40 (not balanced)
+– Status: INACTIVE, Energy: 0
+• Row 2:
+– Sum = 68 (not prime, not palindrome)
+– Alternating sum = 17 - 17 + 17 - 17 = 0 (divisible by 7, harmonic)
+– Odd sum = 17 + 17 = 34, even sum = 17 + 17 = 34 (balanced)
+– Status: MEDIUM, Energy: 4 + 2 = 6
+• Row 3:
+– Sum = 242 (not prime, palindrome)
+– Alternating sum = 121 - 121 = 0 (divisible by 7, harmonic)
+– Odd sum = 121, even sum = 121 (balanced)
+– Status: HIGH, Energy: 3 + 4 + 2 = 9
+• Row 4:
+– Sum = 83 (prime, not palindrome)
+– Alternating sum = 41 - 23 + 19 = 37 (not divisible by 7, not harmonic)
+– Odd sum = 41 + 19 = 60, even sum = 23 (not balanced)
+– Status: LOW, Energy: 5
+
+**Submission Guideline**
+Rename your solution C file with your student ID. If your student ID is 2405XXX, your file
+should be named 2405XXX.c. Then submit only this file in the submission link posted on
+Moodle. Do not submit any other files.
+
+**Special Instructions**
+Do not share your code or copy from anyone else, any website or ChatGPT. You will be
+awarded –100% in these cases.
