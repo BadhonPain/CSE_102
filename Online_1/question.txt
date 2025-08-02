@@ -1,0 +1,35 @@
+##Online-1 (B1/B2)##
+
+**Problem__1**
+You are given a 3 digit number. You have to output whether it is an armstrong number. 
+A number is called an Armstrong number if the sum of the cubes of its digits equals the number itself.
+For example 370 = 33 + 73 + 03
+
+**Sample Input**                  **Sample Output**
+
+370                                Armstrong Number
+
+153                                Armstrong Number
+
+123                                Not Armstrong Number
+
+**Problem_2**
+Given four coordinates a, b, c and d, output whether ab and cd are coincident, parallel or intersecting
+(coordinates of a, b, c and d are given on separate lines in order).
+
+**Sample Input**                 **Sample Output**
+
+0 0                              Coincident
+4 4
+2 2
+6 6
+
+2 2                              Parallel
+6 6
+0 1
+4 5
+
+2 -1                             Intersecting
+2 3
+0 0
+4 0
