@@ -1,0 +1,52 @@
+##Online on Array##
+
+**Problem_1**:
+You are given an array of integers where each element represents the height of a building (in number of floors).
+The sunlight shines horizontally from the left side. A building gets sunlight only on the number of floors that are above the height of the tallest building to its left.
+The first building always gets full sunlight. Your task is to calculate the total number of sunlit floors across all the buildings.
+
+**Input**:
+● First line contains a single integer n (1 ≤ n ≤ 10⁵) — the number of buildings.
+● Second line contains n space-separated integers h₁, h₂, ..., h􀀀 (1 ≤ hᵢ ≤ 10⁹) — the heights of the buildings.
+**Output**:
+● Print a single integer — the total number of sunlit floors.
+
+Examples:
+*Input:
+6
+6 2 8 4 11 13
+*Output: 13
+
+**Explanation**: 6 + 0 + 2 + 0 + 3 + 2 = 13 
+
+*Input:
+6
+6 6 6 6 6 6
+*Output: 6
+
+
+
+**Problem_2** :
+Given an array of positive integers, your task is to find the third largest distinct element in the array.
+If the third largest distinct element does not exist (i.e., fewer than three distinct elements), output -1.
+*Input:
+● First line contains a single integer n (1 ≤ n ≤ 10⁵) — the number of elements in the array.
+● Second line contains n space-separated integers a₁, a₂, ..., a􀀀 (1 ≤ aᵢ ≤ 10⁹) — the elements of the array.
+*Output:
+● Print a single integer — the third largest distinct element, or -1 if it does not exist.
+
+**Examples**:
+
+*Input:
+7
+4 1 7 3 9 9 4
+*Output: 4
+
+*Input:
+6
+1 2 2 1 2 1
+*Output: -1
+*Input:
+6
+6 6 6 6 6 6
+*Output: -1
