@@ -1,0 +1,23 @@
+2. Sort Even and Odd Separately
+Sort even numbers in ascending order and odd numbers in descending order. Print evens first, then odds.
+
+Input:
+6
+4 1 7 2 9 6
+
+Output:
+2 4 6 9 7 1
+  
+Input:
+5
+5 3 2 8 1
+
+Output:
+2 8 5 3 1
+  
+Input:
+4
+10 11 12 13
+
+Output:
+10 12 13 11

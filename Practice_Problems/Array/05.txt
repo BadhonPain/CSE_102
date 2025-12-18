@@ -1,0 +1,23 @@
+5. Remove Duplicates (Keep Order)
+Remove duplicates from the array but keep the first occurrence of each number.
+
+Input:
+6
+1 2 2 3 1 4
+
+Output:
+1 2 3 4
+  
+Input:
+5
+5 5 5 5 5
+
+Output:
+5
+  
+Input:
+7
+10 20 10 30 40 30 50
+
+Output:
+10 20 30 40 50

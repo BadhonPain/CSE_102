@@ -1,0 +1,23 @@
+1. Find the Second Largest Element
+Find the second largest unique element in the array. If it doesn't exist, print "Not found".
+
+Input:
+5
+10 20 30 40 50
+
+Output:
+40
+  
+Input:
+4
+5 5 5 5
+
+Output:
+Not found
+  
+Input:
+6
+100 20 30 100 90 30
+
+Output:
+90

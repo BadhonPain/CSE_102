@@ -1,0 +1,26 @@
+8. Sort in Descending and Find Median
+Sort the array in descending order and print the median. If even number of elements, take average of middle two.
+
+Input:
+5
+3 1 4 1 5
+
+Output:
+Descending: 5 4 3 1 1
+Median: 3
+  
+Input:
+4
+10 20 30 40
+
+Output:
+Descending: 40 30 20 10
+Median: 25
+  
+Input:
+3
+9 8 7
+
+Output:
+Descending: 9 8 7
+Median: 8

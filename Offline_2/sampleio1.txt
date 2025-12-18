@@ -1,0 +1,63 @@
+Commands:
+  set     - Set array size, seed, and distribution (uniform or gaussian)
+  min     - Print minimum value
+  max     - Print maximum value
+  mean    - Print mean value
+  stddev  - Print standard deviation
+  hist    - Plot histogram
+  summary - Print min, max, mean, stddev
+  help    - Show this help message
+  exit    - Exit the program
+
+Enter command: set
+Enter number of elements (<= 100000): 5001
+Enter seed: 42
+Distribution? (uniform/gaussian): gaussian
+Enter mean and stddev: 0 5.0
+Array initialized with gaussian distribution.
+
+Enter command: min
+Min       :   -18.6564
+
+Enter command: max
+Max       :    21.1857
+
+Enter command: mean
+Mean      :     0.0444
+
+Enter command: summary
+Min       :   -18.6564
+Max       :    21.1857
+Mean      :     0.0444
+Std Dev   :     4.9177
+Median    :     0.0673
+
+Enter command: hist
+Enter number of bins: 25
+[-18.66 - -17.06]: 
+[-17.06 - -15.47]:
+[-15.47 - -13.88]:
+[-13.88 - -12.28]: *
+[-12.28 - -10.69]: ***
+[-10.69 -  -9.09]: *****
+[ -9.09 -  -7.50]: **********
+[ -7.50 -  -5.91]: ********************
+[ -5.91 -  -4.31]: ******************************
+[ -4.31 -  -2.72]: ***************************************
+[ -2.72 -  -1.13]: ******************************************
+[ -1.13 -   0.47]: **************************************************
+[  0.47 -   2.06]: ***********************************************
+[  2.06 -   3.66]: *****************************************
+[  3.66 -   5.25]: ***********************************
+[  5.25 -   6.84]: ************************
+[  6.84 -   8.44]: ***************
+[  8.44 -  10.03]: ********
+[ 10.03 -  11.62]: ***
+[ 11.62 -  13.22]: **
+[ 13.22 -  14.81]: *
+[ 14.81 -  16.40]:
+[ 16.40 -  18.00]:
+[ 18.00 -  19.59]:
+[ 19.59 -  21.19]:
+
+Enter command: 
