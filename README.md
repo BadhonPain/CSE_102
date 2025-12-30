@@ -1,6 +1,6 @@
 # CSE 102 — Structured Programming Language 
 
-This repository contains my **lab problems, assignments, and practice codes** from **CSE 102 (Level 1, Term 1)** at **Bangladesh University of Engineering and Technology (BUET)**.
+This repository contains my **online problems, offline assignments, practice codes and a game project** from **CSE 102 (Level 1, Term 1)** at **Bangladesh University of Engineering and Technology (BUET)**.
 
 All solutions are written in **C** and follow the **constraints and instructions given in BUET lab classes**.
 
@@ -23,6 +23,7 @@ All solutions are written in **C** and follow the **constraints and instructions
 * Almost every topic's practice problems
 * Practice codes for quizzes and exams
 * Solutions written with **proper logic and clarity**
+* [Term Project](https://github.com/BadhonPain/Angry_Birds_project)
 
 ---
 
